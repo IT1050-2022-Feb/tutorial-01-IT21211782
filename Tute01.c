@@ -4,7 +4,14 @@
 
 #include <stdio.h>
 
-int main() {
+int main() { 
+   int num1,num2,total,average;
+   scanf("%d", &num1);
+   scanf("%d", &num2);
+   total = num1 + num2;
+   average = total / 2;
+   
+   printf("average is :%d", average);
   
   return 0;
 }
